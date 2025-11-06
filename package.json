@@ -1,0 +1,25 @@
+{
+  "name": "com.mnmfullmetal.Unity-Asset-Organiser",
+  "version": "1.0.0",
+  "displayName": "Unity Asset Organiser",
+  "description": "An editor tool that automatically sorts imported assets into predefined folders based on file type, keeping your project hierarchy clean.",
+  "unity": "2022.3.62f3",
+  "documentationUrl": "https://github.com/mnmfullmetal/Unity-Asset-Organiser/blob/main/README.md",
+  "changelogUrl": "https://github.com/mnmfullmetal/Unity-Asset-Organiser/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/mnmfullmetal/Unity-Asset-Organiser/blob/main/LICENSE.md",
+  "dependencies": {},
+  "keywords": [
+    "unity",
+    "tool",
+    "editor",
+    "utility",
+    "custom",
+    "organise",
+    "assets"
+  ],
+  "author": {
+    "name": "Myles Gillard",
+    "email": "mnm.fullmetal@gmail.com",
+    "url": "https://github.com/mnmfullmetal"
+  }
+}
