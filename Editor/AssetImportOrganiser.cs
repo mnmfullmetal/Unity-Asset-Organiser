@@ -9,7 +9,7 @@ public class AssetImportOrganiser : AssetPostprocessor
         foreach (string assetPath in importedAssets)
         {
             // Exclude Files in Editor folder
-            if (assetPath.StartsWith("Assets/Editor/"))
+            if (assetPath.StartsWith("Packages/") || assetPath.StartsWith("Assets/Editor/"))
             {
                 continue;
             }

@@ -519,7 +519,7 @@ public class AssetOrganiserEditor : EditorWindow
 
             if (selectedFolder.associatedExtensions.Contains(extensionToAdd))
             {
-                EditorUtility.DisplayDialog("Mapping Error", "extension mapping already exists in this fodler", "OK");
+                EditorUtility.DisplayDialog("Mapping Error", "extension mapping already exists in this folder", "OK");
                 return;
             }
 
