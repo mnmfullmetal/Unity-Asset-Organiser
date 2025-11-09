@@ -1,9 +1,9 @@
-# Unity Asset Organiser v.1
+# Unity Asset Organiser
 #### Video Demo:
 https://www.youtube.com/watch?v=ve__u2ZS6Ew
 
 #### Description:
-Asset Organiser v.1 is a custom Unity editor tool designed to enforce project organisational standards and streamline development by eliminating tedious manual asset sorting. Accessed via Window > AssetOrganiserEditor, this tool empowers developers to maintain a clean and consistent project structure. It allows users to define project folder layouts, precisely map different file extensions (like .png, .mat, .prefab) to specific folders within that structure, and save these configurations as reusable presets. Once a user applies a chosen structure to the project, the Asset Organiser automatically moves newly imported or modified assets into their designated folders based on the defined extension mappings, ensuring the project remains consistently organised according to the desired layout with minimal ongoing effort.
+Asset Organiser is a custom Unity editor tool designed to enforce project organisational standards and streamline development by eliminating tedious manual asset sorting. Accessed via Window > AssetOrganiserEditor, this tool empowers developers to maintain a clean and consistent project structure. It allows users to define project folder layouts, precisely map different file extensions (like .png, .mat, .prefab) to specific folders within that structure, and save these configurations as reusable presets. Once a user applies a chosen structure to the project, the Asset Organiser automatically moves newly imported or modified assets into their designated folders based on the defined extension mappings, ensuring the project remains consistently organised according to the desired layout with minimal ongoing effort.
 The "Default" preset is an organisational structure outlined by Unity's best practices guidelines for project organisation, as found here: https://unity.com/how-to/organizing-your-project
 
 ## Features
@@ -83,6 +83,41 @@ The "Default" preset is an organisational structure outlined by Unity's best pra
     * Checks if the asset is already in the correct place.
     * If not, calls `AssetDatabase.MoveAsset` to move the asset.
 
+## Installation
+
+This tool is distributed as a UPM package.
+
+### Method 1: Install via Git URL (Recommended)
+
+This is the simplest way to install the tool.
+
+1.  In your Unity project, go to **Window > Package Manager**.
+2.  Click the **`+`** icon in the top-left corner.
+3.  Select **"Add package from git URL..."**
+4.  Paste in the following URL:
+    ```
+    [https://github.com/mnmfullmetal/Unity-Asset-Organiser.git](https://github.com/mnmfullmetal/Unity-Asset-Organiser.git)
+    ```
+5.  Click **Add**. The package will be installed into your project.
+
+### Method 2: Install via OpenUPM (for easy updates)
+
+You can also install this package using [OpenUPM](https://openupm.com/), a community package registry. This is the best way to get automatic updates.
+
+1.  If you don't have it, install the OpenUPM CLI:
+    ```bash
+    npm install -g openupm-cli
+    ```
+2.  Go to your Unity project's folder in your terminal and run:
+    ```bash
+    openupm add com.mnmfullmetal.unity-asset-organiser
+    ```
+
+---
+
+## 📋 Requirements
+
+* **Unity 2022.3** or newer.
 
 ### Usage
 
@@ -135,5 +170,5 @@ The "Default" preset is an organisational structure outlined by Unity's best pra
 
 ## Further Information
 
-For a more detailed and complete, step-by-step representation of this programs devlopment lifecycle, please refer to my public GitHub repository here: https://github.com/mnmfullmetal/AssetOrganiser_v1
+For a more detailed and complete, step-by-step representation of this programs devlopment lifecycle, please refer to my public GitHub repository here: https://github.com/mnmfullmetal/Unity-Asset-Organiser
 
