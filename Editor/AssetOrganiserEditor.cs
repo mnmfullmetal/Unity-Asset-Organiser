@@ -31,6 +31,7 @@ public class AssetOrganiserEditor : EditorWindow
         string scriptPath = AssetDatabase.GetAssetPath(script);
         string editorFolderPath = Path.GetDirectoryName(scriptPath);
         string uxmlPath = Path.Combine(editorFolderPath, "AssetOrganiserEditor.uxml");
+        var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>(uxmlPath);
         VisualElement root = visualTree.Instantiate();
         rootVisualElement.Add(root);
 
