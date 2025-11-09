@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
-    <Style src="project://database/Assets/Editor/ExtensionMappingsEditor.uss?fileID=7433441132597879392&amp;guid=4e634bd4db9ea544db1f9702f10255c4&amp;type=3#ExtensionMappingsEditor" />
+    <Style src="ExtensionMappingsEditor.uss" />
     <ui:VisualElement name="MappingListContainer" style="flex-grow: 1; min-height: auto; max-height: 50%;">
         <ui:ListView name="ExtensionsListView" />
     </ui:VisualElement>

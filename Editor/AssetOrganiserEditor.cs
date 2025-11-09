@@ -27,7 +27,10 @@ public class AssetOrganiserEditor : EditorWindow
     public void CreateGUI()
     {
         // Load and Instantiate uxml for main tool window
-        var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Editor/AssetOrganiserEditor.uxml");
+        MonoScript script = MonoScript.FromScriptableObject(this);
+        string scriptPath = AssetDatabase.GetAssetPath(script);
+        string editorFolderPath = Path.GetDirectoryName(scriptPath);
+        string uxmlPath = Path.Combine(editorFolderPath, "AssetOrganiserEditor.uxml");
         VisualElement root = visualTree.Instantiate();
         rootVisualElement.Add(root);
 
