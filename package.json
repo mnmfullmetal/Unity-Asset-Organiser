@@ -1,5 +1,5 @@
 {
-  "name": "com.mnmfullmetal.Unity-Asset-Organiser",
+  "name": "com.mnmfullmetal.unity-asset-organiser",
   "version": "1.0.0",
   "displayName": "Unity Asset Organiser",
   "description": "An editor tool that automatically sorts imported assets into predefined folders based on file type, keeping your project hierarchy clean.",
